@@ -51,10 +51,44 @@ h1 {
     padding: 20px;
     text-align: center;
     margin: 5px;
+    color:white
 }
 
-h2 {
+.one {
+    color:black;
+    text-align: left;
+    position: relative; top: -400px; right: -540px;
+    font-size: 40px;
+    background-color: red;
+    margin: 20px;
+    width: 170px;
+}
+
+.max {
+    color:black;
+    text-align: left;
+    position: relative; top: -470px; right: -800px;
+    font-size: 40px;
+    background-color: red;
+    margin: 20px;
+    width: 180px;
+}
+
+.income {
+    color:black;
+    text-align: left;
+    position: relative; top: -538px; right: -1060px;
+    font-size: 40px;
+    background-color: red;
+    margin: 20px;
+    width: 200px;
+}
+
+.button {
     color:white;
-    text-align: center;
-    position: relative; top: -350px;
+    text-align: left;
+    position: relative; top: -950px; right: -1450px;
+    font-size: 50px;
+    background-color: red;
+    width: 150px;
 }

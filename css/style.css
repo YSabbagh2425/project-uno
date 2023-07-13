@@ -23,7 +23,7 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: red;
-    padding: 10px;
+    padding: 5px;
     width: 800px;
     position: relative; right: -500px;
 }
@@ -34,16 +34,17 @@ h1 {
     padding: 40px;
     text-align: center;
     margin: 10px;
+    font-size: 30px;
 }
 
 .payoutTable {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     background-color: red;
     padding: 10px;
     width: 300px;
-    position: relative; top: -400px; right: -120px;
+    position: relative; top: -450px; right: -120px;
 }
 
 .gridItems {
@@ -89,7 +90,7 @@ h1 {
 .button {
     color:white;
     text-align: left;
-    position: relative; top: -1080px; right: -1350px;
+    position: relative; top: -1150px; right: -1350px;
     font-size: 50px;
     background-color: red;
     width: 150px;
@@ -98,7 +99,7 @@ h1 {
 .bet {
     color:white;
     text-align: left;
-    position: relative; top: -1050px; right: -1350px;
+    position: relative; top: -1120px; right: -1350px;
     font-size: 30px;
     background-color: red;
     width: 200px;

@@ -48,23 +48,19 @@ const random1 = new Random(randomNumberGenerator());
 const random2 = new Random(randomNumberGenerator());
 const random3 = new Random(randomNumberGenerator());
 
-
-
 function  addOne () {
-    newValue = document.querySelector[".one"] 
-    newValue -= newValue.currentAmount
-} 
+    betAmount++
+};
 
 function addAll () {
-    newValue = document.querySelector[".all"];
-    newValue -= allIn.currentAmount;
+    betAmount = currentAmount
 };
 
 function prayToRNG () {
-    if(currentAmount > 0){
+    if (currentAmount > 0) {
     currentAmount -= betAmount
     console.log(`Now, you have amount $${currentAmount}`)
-    randomNumberGenerator()
+    randomNumberGenerator().appendChild(".grid")
     }
 };
 
@@ -74,7 +70,6 @@ function checkPattern(){
       let amountWon = amountBet * 2; 
       amountBet = amountWon;  
       currentAmount.innerHTML = amountWon;
-  
     }else if ( fiveTimes === 3 ) {
         let amountWon = amountBet * 5; 
         amountBet = amountWon;  
@@ -87,7 +82,5 @@ function checkPattern(){
         let amountWon = amountBet * 50; 
         amountBet = amountWon;  
         currentAmount.innerHTML = amountWon;
-    } else {
-      console.log("Lost money");
-    }
-  }
+    } 
+}
